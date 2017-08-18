@@ -1,0 +1,2 @@
+module UsuarioIntervaloHelper
+end

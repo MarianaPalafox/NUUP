@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<ul class="nav nav-tabs">
+				<li class="active">
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#">Profile</a>
+				</li>
+				<li class="disabled">
+					<a href="#">Messages</a>
+				</li>
+				<li class="dropdown pull-right">
+					 <a href="#" data-toggle="dropdown" class="dropdown-toggle">Dropdown<strong class="caret"></strong></a>
+					<ul class="dropdown-menu">
+						<li>
+							<a href="#">Action</a>
+						</li>
+						<li>
+							<a href="#">Another action</a>
+						</li>
+						<li>
+							<a href="#">Something else here</a>
+						</li>
+						<li class="divider">
+						</li>
+						<li>
+							<a href="#">Separated link</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<h3 class="text-center">
+				Panel de Administracion
+			</h3>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>
+							idSession
+						</th>
+						<th>
+							Fecha de Inicio
+						</th>
+						<th>
+							Horas
+						</th>
+						<th>
+							Costo
+						</th>
+                        <th>
+                            idOffer
+                        </th>
+                        <th>
+                            idInterval
+                        </th>
+                        <th>
+                            idState
+                        </th>
+                        <th>
+                            idPlace
+                        </th>
+                        <th>
+                            Latitud
+                        </th>
+                        <th>
+                            Longitud
+                        </th>
+                        <th>
+                            idTutor
+                        </th>
+                        <th>
+                            idStudent
+                        </th>
+                        <th>
+                            Otro Lugar
+                        </th>
+                        <th>
+                            Fecha de Termino
+                        </th>
+					</tr>
+				</thead>
+				<tbody>
+					
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+      
+      
+      <div>
+         
+          <% @usuario.all do |usuario| %>
+          <tr>
+        <td><%= usuario.idUser%></td>
+        <td><%= usuario.birthday %></td>
+        
+        
+      </tr>
+           <% end %>
+          
+      </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
