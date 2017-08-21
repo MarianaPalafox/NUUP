@@ -1,0 +1,2 @@
+class UsrLooksforSubject < ApplicationRecord
+end

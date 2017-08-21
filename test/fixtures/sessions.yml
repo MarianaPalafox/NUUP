@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  idSession: 
+  startDate: 2017-08-21 10:46:57
+  hours: 
+  cost: 1.5
+  idOffer: 
+  idInterval: 
+  idState: 
+  idPlace: 
+  lat: 
+  lng: 
+  idTutor: 
+  idStudent: 
+  otherLocation: 
+  endDate: 2017-08-21 10:46:57
+
+two:
+  idSession: 
+  startDate: 2017-08-21 10:46:57
+  hours: 
+  cost: 1.5
+  idOffer: 
+  idInterval: 
+  idState: 
+  idPlace: 
+  lat: 
+  lng: 
+  idTutor: 
+  idStudent: 
+  otherLocation: 
+  endDate: 2017-08-21 10:46:57

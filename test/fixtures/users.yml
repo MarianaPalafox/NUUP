@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  idUser: 
+  idDreamfactory: 
+  birthday: 2017-08-21
+  lat: 
+  lng: 
+  idDegree: 
+  creation: 
+  ratingTutor: 1.5
+  ratingStudent: 1.5
+  description: MyText
+
+two:
+  idUser: 
+  idDreamfactory: 
+  birthday: 2017-08-21
+  lat: 
+  lng: 
+  idDegree: 
+  creation: 
+  ratingTutor: 1.5
+  ratingStudent: 1.5
+  description: MyText

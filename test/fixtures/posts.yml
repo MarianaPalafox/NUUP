@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  idPost: 
+  idUser: 
+  text: 
+  date: 2017-08-21 10:38:29
+
+two:
+  idPost: 
+  idUser: 
+  text: 
+  date: 2017-08-21 10:38:29

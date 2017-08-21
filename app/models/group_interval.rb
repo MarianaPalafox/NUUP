@@ -1,0 +1,2 @@
+class GroupInterval < ApplicationRecord
+end

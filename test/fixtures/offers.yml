@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  idOffer: 
+  cost: 1.5
+  description: MyText
+  idSubject: 
+  idUser: 
+  idInterval: 
+  creation: 
+  available: 
+
+two:
+  idOffer: 
+  cost: 1.5
+  description: MyText
+  idSubject: 
+  idUser: 
+  idInterval: 
+  creation: 
+  available: 

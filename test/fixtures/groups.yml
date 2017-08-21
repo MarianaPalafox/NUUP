@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  idGroup: 
+  name: 
+  description: MyText
+  quota: 
+  cost: 1.5
+  lat: 
+  lng: 
+  idTutor: 
+  creation: 
+
+two:
+  idGroup: 
+  name: 
+  description: MyText
+  quota: 
+  cost: 1.5
+  lat: 
+  lng: 
+  idTutor: 
+  creation: 

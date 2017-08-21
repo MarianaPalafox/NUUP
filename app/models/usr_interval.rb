@@ -1,0 +1,2 @@
+class UsrInterval < ApplicationRecord
+end
