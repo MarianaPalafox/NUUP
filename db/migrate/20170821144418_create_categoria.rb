@@ -1,8 +1,8 @@
 class CreateCategoria < ActiveRecord::Migration[5.1]
   def change
-    create_table :categoria do |t|
-      t.integer(11) :idCategory
-      t.varchar(45) :label
+    create_table :category,id:false do |t|
+      t.integer :idCategory
+      t.string :label
     end
   end
 end

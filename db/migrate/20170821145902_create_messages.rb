@@ -1,13 +1,11 @@
 class CreateMessages < ActiveRecord::Migration[5.1]
   def change
-    create_table :messages do |t|
-      t.integer(11) :idMessage
-      t.integer(11) :idUserFrom
-      t.integer(11) :idUserTo
-      t.varchar(500) :text
-      t.timestamps :creation
-
-      
+    create_table :messages,id:false  do |t|
+      t.integer :idMessage
+      t.integer :idUserFrom
+      t.integer :idUserTo
+      t.string :text
+      t.timestamp :creation
     end
   end
 end

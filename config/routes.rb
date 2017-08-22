@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+    resources:categorium
   get 'home/index'
 
   get 'dia_semana/index'

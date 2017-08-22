@@ -6,7 +6,7 @@ default: &default
     pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
     host: nextia.mx
     username: admin_nuup
-    password: nextia2017 
+    password: nuup2017 
     port: 3306
     socket: /var/run/mysqld/mysqld.sock
     
@@ -14,16 +14,15 @@ default: &default
 
 development:
   <<: *default
-  database: develop_nuup_dev
+  database: nuup_dev
 
 
 test:
   <<: *default
-  database: test_nuup_dev
+  database: nuup_dev
 
 production:
   <<: *default
   database: nuup_dev
   username: admin_nuup
-  password: nextia2017
-
+  password: nuup2017

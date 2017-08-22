@@ -1,10 +1,8 @@
 class CreatePlaces < ActiveRecord::Migration[5.1]
   def change
-    create_table :places do |t|
-      t.integer(11) :idPlace
-      t.varchar(120) :label
-
-      
+    create_table :places,id:false  do |t|
+      t.integer :idPlace
+      t.string :label
     end
   end
 end

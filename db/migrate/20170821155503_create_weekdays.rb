@@ -1,10 +1,8 @@
 class CreateWeekdays < ActiveRecord::Migration[5.1]
   def change
-    create_table :weekdays do |t|
-      t.integer(11) :idWeekday
-      t.varchar(45) :label
-
-      
+    create_table :weekdays,id:false  do |t|
+      t.integer :idWeekday
+      t.string :label
     end
   end
 end

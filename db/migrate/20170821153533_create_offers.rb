@@ -1,16 +1,14 @@
 class CreateOffers < ActiveRecord::Migration[5.1]
   def change
-    create_table :offers do |t|
-      t.integer(11) :idOffer
+    create_table :offers,id:false  do |t|
+      t.integer :idOffer
       t.float :cost
-      t.text :description
-      t.integer(11) :idSubject
-      t.integer(11) :idUser
-      t.integer(11) :idInterval
-      t.timestamps :creation
-      t.tinyint(1) :available
-
-    
+      t.string :description
+      t.integer :idSubject
+      t.integer :idUser
+      t.integer :idInterval
+      t.timestamp :creation
+      t.integer :available
     end
   end
 end
